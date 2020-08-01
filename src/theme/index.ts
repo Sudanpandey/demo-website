@@ -6,7 +6,7 @@ const colors = {
 	blackColor: "#262626",
 	greenColor: "#82b440",
     whiteColor: "#FFFFFF",
-    lightBlack:"#9E9E9E",
+    lightBlack:"#9E9E9E",   
     backgroundColor:"#F5F5F5",
     buttonColor:"#FBA62F",
     greenlightColor:"#479F5F",
@@ -32,7 +32,7 @@ const colors = {
     imageBackgroundHover13:"#CDCDCD",
     imageBackgroundHover14:"#62779D",
     imageBackgroundHover15:"#88A43F",
-    imageBackgroundHover16:"#D6532C",
+    imageBackgroundHover16:"#D6532C",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
     imageBackgroundHover17:"#6C9D6D",
     imageBackgroundHover18:"#71D7EF",
     imageBackgroundHover19:"#4FB589",
@@ -44,7 +44,7 @@ const colors = {
     // lightblack1Color:"#505050",
     underlineColor:"#002F4D",
     // buttonColor:"#82B440",
-    // yellowColor:"#DBED39",
+    // yellowColor:"#DBED39",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
     // backgroundColor:"#002C4C",
     // backgroundColor1:"#451A19",
     // redColor:"#E64445",
@@ -53,32 +53,6 @@ const colors = {
     // lightGreen:"#39A6AE",
     // lightYellow:"#FDBA59",
     // backgroundColor2:"#F2F2F2",  
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-
-
-
-
 };
 
 export const theme = {

@@ -103,8 +103,6 @@ const StyledUnorderedList = styled.ul<{ open: boolean }>`
         colors: { whiteColor },
       },
     }) => whiteColor};
-    /* transition: left 1s cubic-bezier(0.19, 1, 0.22, 1); */
-    /* transition: width 2s; */
          transition: left 1 s cubic-bezier(0.1, 0.7, 1.0, 0.1);
     display: ${({ open }) => (open ? "block" : "none")};
   }
@@ -122,7 +120,6 @@ const CloseIcon = styled.li`
   width: 17px;
   height: 17px;
   margin: 0;
-  /* opacity: 0; */
   transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 1;
   transition-delay: 0.3s;
@@ -213,7 +210,7 @@ const AnchorTag = styled.a`
 
 const ButtonTag = styled.a`
   background-color: ${({
-    theme: {
+    theme: {  
       colors: { greenColor },
     },
   }) => greenColor};
@@ -252,12 +249,12 @@ const NavBar: FC<NavBarProps> = ({ navItems }) => {
       <MoreWrapper onClick={handleOpen}>
         <span className="burgerTop"></span>
         <span className="burgerMiddle"></span>
-        <span className="burgerButtom"></span>
+        <span className="burgerButtom"></span>  
       </MoreWrapper>
 
       <InnerWrapper onClick={handleClose}>
         <StyledUnorderedList open={open}>
-          <CloseIcon onClick={handleClose}></CloseIcon>
+          <CloseIcon onClick={handleClose}></CloseIcon> 
           {navItems.map(({ name, link }) => (
             <StyledList key={name}>
               <AnchorTag href={link}>{name}</AnchorTag>
@@ -270,4 +267,4 @@ const NavBar: FC<NavBarProps> = ({ navItems }) => {
     </Wrapper>
   );
 };
-export default NavBar;
+export default NavBar;    
