@@ -1,15 +1,12 @@
 import baseStyled, { ThemedBaseStyledInterface } from "styled-components";
 
 const colors = {
-	font: "#2B8285",
-	buttonPrimary: "#24b47e",
-	buttonSecondary: "#442ebf",
-	navbar: "#7CFC00",
+	
 
 	blackColor: "#262626",
 	greenColor: "#82b440",
     whiteColor: "#FFFFFF",
-    lightBlack:"#9E9E9E",
+    lightBlack:"#9E9E9E",   
     backgroundColor:"#F5F5F5",
     buttonColor:"#FBA62F",
     greenlightColor:"#479F5F",
@@ -35,21 +32,27 @@ const colors = {
     imageBackgroundHover13:"#CDCDCD",
     imageBackgroundHover14:"#62779D",
     imageBackgroundHover15:"#88A43F",
-    imageBackgroundHover16:"#D6532C",
+    imageBackgroundHover16:"#D6532C",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
     imageBackgroundHover17:"#6C9D6D",
     imageBackgroundHover18:"#71D7EF",
     imageBackgroundHover19:"#4FB589",
-
-    textColor1:"#9E9E9E",
-    buyButton:"#4A4FBF"
-
-    
-    
-    
-
-
-
-
+    hoverColor:"#A4D133",
+    navbarColor:"#002341",
+    // whiteColor:"#ffffff",
+    black1Color:"#000000",
+    // lightblackColor:"#737373",
+    // lightblack1Color:"#505050",
+    underlineColor:"#002F4D",
+    // buttonColor:"#82B440",
+    // yellowColor:"#DBED39",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    // backgroundColor:"#002C4C",
+    // backgroundColor1:"#451A19",
+    // redColor:"#E64445",
+    // blueColor:"#016DDC",
+    // blackcolor1:"#333333",
+    // lightGreen:"#39A6AE",
+    // lightYellow:"#FDBA59",
+    // backgroundColor2:"#F2F2F2",  
 };
 
 export const theme = {
