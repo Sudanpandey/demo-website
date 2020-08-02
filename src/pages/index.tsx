@@ -1,12 +1,12 @@
-import NavBar from "components/navbar";
+import { NavBar, ExpressInstallation } from "components";
 
-import { navItems } from "mock";
-// import Logo from "assets/logo";
+import { navItems, expressInstallationData } from "mock";
 
 const HomePage = () => {
 	return (
 		<>
-		   <NavBar  navItems={navItems} />
+			<NavBar navItems={navItems} />
+			<ExpressInstallation {...expressInstallationData} />
 		</>
 	);
 };

@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     padding: 0;
     margin: 0;
-    font-family:"Roboto";
+    font-family: "Nunito Sans", sans-serif;
 }
 
 body, html{

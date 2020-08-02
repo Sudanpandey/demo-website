@@ -27,14 +27,6 @@ const Wrapper = styled.div`
     cursor: pointer;
     position: relative;
 	height: 50px;
-    /* color: ${({
-		theme: {
-			colors: { whiteColor },
-		},
-	}) => whiteColor};
-    .ulStyle {
-      display: none;
-    } */
   }
 `;
 
@@ -173,7 +165,6 @@ const StyledList = styled.li`
 	text-decoration: none;
 `;
 const AnchorTag = styled.a`
-	font-family: "Nunito Sans", sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 28px;
@@ -237,7 +228,6 @@ const ButtonTag = styled.a`
 	box-shadow: 0 2px 0 #6f9a37;
 	font-size: 14px;
 	font-weight: 700;
-	font-family: "Nunito Sans", sans-serif;
 	padding: 5px 20px;
 	line-height: 1.5;
 	width: auto;
