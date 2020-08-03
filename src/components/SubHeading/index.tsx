@@ -4,6 +4,8 @@ import {styled} from "theme";
 
 const StyledSubHeader =styled.h2<SubHeadProps>`
 font-size:20px;
+font-weight: 500;
+line-height: 28px;
 color:${({
     color, 
     theme:{
