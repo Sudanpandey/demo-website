@@ -6,7 +6,7 @@ import { styled } from "theme";
 const StyledHeader = styled.h1<HeadProps>`
 	font-size: ${({ type }) => (type === "primary" ? "45px" : "35px")};
 	font-weight: 700;
-	line-height: 50px;
+	line-height: 50px;  
 	color: ${({
 		color,
 		theme: {

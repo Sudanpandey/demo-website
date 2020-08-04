@@ -1,8 +1,10 @@
-export interface MarketingAutomationProps{
-    heading:string;
-    subHeading:string;
-    image:{
-        imageSrc:string;
-        altText:string;
-    };
+import { MarketingAutomationItemsProps } from "../MarketingAutomationItem/types";
+
+export interface MarketingAutomationProps {
+	image: {
+		imageSrc: string;
+		altText: string;
+	};
+	heading: string;
+	items: MarketingAutomationItemsProps[];
 }
