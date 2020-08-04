@@ -12,7 +12,7 @@ const Wrapper = styled.div`
 	padding-bottom: 84px;
 	background: #0a4dbd url("/fastor-weketing-bg.webp") right 0 no-repeat;
 	background-size: cover;
-
+    
 	.topImageStyle {
 		margin: 0px 427px 40px;
 	}
@@ -45,13 +45,18 @@ const InnerWrapper = styled.div`
 			flex: 0 0 100%;
 			align-items: center;
 			max-width: 100%;
+			
 		}
 	}
 `;
 
 const StyleSpan = styled.span`
 	font-size: 18px;
-	color: #ffffff;
+	color: ${({
+			theme: {
+				colors: { whiteColor },
+			},
+		}) => whiteColor};
 	margin-top: 50px;
 	padding-bottom: 15px;
 `;
@@ -68,7 +73,7 @@ const MarketingAutomation: React.FC<MarketingAutomationProps> = ({
 				altText={altText}
 				className="topImageStyle"
 			/>
-			<Heading content={heading} color="white" className="headingStyle" />
+			<Heading content={heading} color="white" className="headingStyle" />   
 			<InnerWrapper>
 				{items.map(({ heading, subHeading, image }) => (
 					<MarketingAutomationItem
