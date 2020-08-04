@@ -21,16 +21,18 @@ const Wrapper = styled.div`
   }) => navbarColor};
 
   @media (max-width: 767px) {
+	position:fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    position: relative;
+    /* position: relative; */
 	height: 50px;
   }
 `;
 
 const MoreWrapper = styled.div`
+ 
 	display: block;
 	cursor: pointer;
 	width: 17px;
@@ -44,6 +46,7 @@ const MoreWrapper = styled.div`
 	@media (min-width: 767px) {
 		display: none;
 	}
+	
 
 	.burgerTop {
 		position: absolute;
