@@ -36,7 +36,7 @@ const RevolutionSlider: React.FC<RevolutionSliderProps> = ({
 			<Image image={imageSrc} altText={altText} className="iconStyle" />
 			<Heading content={heading} color="white" className="headerStyle" />
 			<SubHeading
-				content={top}
+				content={top}   
 				color="white"   
 			/>
 			<SubHeading

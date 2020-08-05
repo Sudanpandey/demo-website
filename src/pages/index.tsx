@@ -1,4 +1,4 @@
-import { NavBar, ExpressInstallation, MarketingAutomation,FacebookChat,RevolutionSlider } from "components";
+import { NavBar, ExpressInstallation, MarketingAutomation,FacebookChat,RevolutionSlider,LookBook } from "components";
 
 import {
 	navItems,
@@ -6,6 +6,7 @@ import {
 	marketingAutomationData,
 	facebookChatData,
 	revolutionSliderData,
+	lookBookData
 } from "mock";
 
 
@@ -17,6 +18,7 @@ const HomePage = () => {
 			<MarketingAutomation {...marketingAutomationData} />
 			<FacebookChat {...facebookChatData} />
 			<RevolutionSlider {...revolutionSliderData} />
+			<LookBook {...lookBookData}/>
 		</>
 	);
 };
