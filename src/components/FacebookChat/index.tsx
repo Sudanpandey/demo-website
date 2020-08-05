@@ -10,7 +10,7 @@ const Wrapper = styled.div`
 	align-items: center;
 	background: #002c4c url("/facebookcomponentbgimage.webp") 40% bottom
 		no-repeat;
-	padding: 60px 30px 0px 30px;
+	padding: 60px 30px 0px 30px;   
 
 	.imageStyle {
 		display: block;
@@ -87,7 +87,7 @@ const FacebookChat: React.FC<FacebookChatProps> = ({
 					/>
 				))}
 			</InnerWrapper>
-			<Image
+			<Image  
 				image={messengerImageSrc}
 				altText={messengerAltText}
 				className="messangerImageStyle"

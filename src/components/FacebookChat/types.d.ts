@@ -18,5 +18,6 @@ export interface FacebookChatProps {
 		altText: string;
     };
     
-	items: FacebookChatItemProps[];
+	items: FacebookChatItemProps[]; 
 }
+	

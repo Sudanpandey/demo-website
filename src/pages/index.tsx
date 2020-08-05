@@ -1,11 +1,13 @@
-import { NavBar, ExpressInstallation, MarketingAutomation,FacebookChat } from "components";
+import { NavBar, ExpressInstallation, MarketingAutomation,FacebookChat,RevolutionSlider } from "components";
 
 import {
 	navItems,
 	expressInstallationData,
 	marketingAutomationData,
-	FacebookChatData,
+	facebookChatData,
+	revolutionSliderData,
 } from "mock";
+
 
 const HomePage = () => {
 	return (
@@ -13,7 +15,8 @@ const HomePage = () => {
 			<NavBar navItems={navItems} />
 			<ExpressInstallation {...expressInstallationData} />
 			<MarketingAutomation {...marketingAutomationData} />
-			<FacebookChat {...FacebookChatData} />
+			<FacebookChat {...facebookChatData} />
+			<RevolutionSlider {...revolutionSliderData} />
 		</>
 	);
 };
