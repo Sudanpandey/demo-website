@@ -19,13 +19,7 @@ const StyledSubHeading = styled.span`
 	display: block;
 	font-size: 15px;
 	line-height: 22px;
-    color: ${({ 
-		theme: {
-			colors: { whiteColor },
-		},
-	}) => whiteColor};
-	opacity: 0.6;
-	overflow:hidden;
+	color: rgba(255, 255, 255, 0.6);
 `;
 
 const MarketingAutomationItem: React.FC<MarketingAutomationItemsProps> = ({

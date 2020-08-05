@@ -72,4 +72,48 @@ export const marketingAutomationData = {
       subHeading: "Add age verification popup if you sell adult products only"
     }
   ]
+}
+
+export const FacebookChatData = {
+  image: { 
+    imageSrc: "/messangerIcon.webp",
+   altText: "Facebook Chat Image ",
+	},
+  heading: {
+    top: "Facebook Chat,",
+    bottom: "Tracking & Exit Intent"
+  },
+  
+	items: [
+    {
+      image: {
+        imageSrc: "/facebookcomponent1.webp",
+       altText: "Facebook Chat Image ",
+      },
+      subHeading: "Chat with customers via Facebook Messenger anywhere and anytime"
+    },
+    {
+      image: {
+        imageSrc: "/facebookcomponent2.webp",
+       altText: "Facebook Chat Image ",
+      },
+      subHeading: "Track their behavior on your site in real time, analytic to increase sales"
+    },
+    {
+      image: {
+        imageSrc: "/facebookcomponent3.webp",
+       altText: "Facebook Chat Image ",
+      },
+      subHeading: "Exit intent popups to prevent visitors from leaving your store"
+    }
+  ],
+  messangerImage:{
+    imageSrc:"/messangerimage.webp",
+    altText:"FacebookChatImage"
+  },
+  chatImage:{
+    imageSrc:"/chatimage.webp",
+    altText:"FacebookChatImage"
+  },
+  
 };
