@@ -8,6 +8,7 @@ import MarketingAutomationItemComponent from "./MarketingAutomationItem";
 import FacebookChatItemComponent from "./FacebookChatItem";
 import FacebookChatComponent from "./FacebookChat";
 import RevolutionSliderComponent from"./RevolutiionSlider";
+import LookBookComponent from "./Lookbook";
 
 
 export const NavBar = NavBarComponent;
@@ -20,3 +21,4 @@ export const MarketingAutomationItem= MarketingAutomationItemComponent ;
 export const FacebookChatItem= FacebookChatItemComponent;
 export const FacebookChat = FacebookChatComponent;
 export const RevolutionSlider=RevolutionSliderComponent;
+export const LookBook =LookBookComponent;

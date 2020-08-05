@@ -136,3 +136,11 @@ export const revolutionSliderData = {
 		altText: "Revolution Slider Image",
 	},
 };
+export const lookBookData={
+	image:{
+		imageSrc:"/lookbookicon.webp",
+		altText:"Lookbook Image",
+	},
+	heading:"The New Lookbook",
+	subHeading:"Just pin everything you want to sell from a photo.",
+}
