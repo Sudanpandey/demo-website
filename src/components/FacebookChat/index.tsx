@@ -73,7 +73,7 @@ const FacebookChat: React.FC<FacebookChatProps> = ({
 			<Image image={imageSrc} altText={altText} className="imageStyle" />
 			<Heading content={top} color="white" className="headingStyle" />
 			<Heading
-				content={bottom}	
+				content={bottom} 
 				color="white"
 				className="headingStyle headingBottomStyle"
 			/>

@@ -5,7 +5,9 @@
 	"scripts": {
 		"dev": "nodemon",
 		"build": "next build",
-		"start": "next start"
+		"start": "serve ./out",
+		"export": "next export",
+		"deploy": "npm run build && npm run export"
 	},
 	"dependencies": {
 		"next": "9.4.4",

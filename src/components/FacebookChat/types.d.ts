@@ -1,4 +1,4 @@
-import { FacebookChatItemsProps } from "../FacebookChatItem/types";
+// import { FacebookChatItemsProps } from "../FacebookChatItem/types";
 
 export interface FacebookChatProps {
 	heading: {
@@ -16,8 +16,8 @@ export interface FacebookChatProps {
     chatImage: {
 		imageSrc: string;
 		altText: string;
-    };
+	};
     
-	items: FacebookChatItemProps[]; 
+	items: FacebookChatItemProps[];    
 }
 	
