@@ -9,7 +9,8 @@ import FacebookChatItemComponent from "./FacebookChatItem";
 import FacebookChatComponent from "./FacebookChat";
 import RevolutionSliderComponent from"./RevolutiionSlider";
 import LookBookComponent from "./Lookbook";
-
+import ProductDetailsItemComponent from "./ProductDetailsItem";
+import ProductDetailsComponent from "./ProductDetails";
 
 export const NavBar = NavBarComponent;
 export const Heading = Headingponent;
@@ -22,3 +23,5 @@ export const FacebookChatItem= FacebookChatItemComponent;
 export const FacebookChat = FacebookChatComponent;
 export const RevolutionSlider=RevolutionSliderComponent;
 export const LookBook =LookBookComponent;
+export const ProductDetailsItem =ProductDetailsItemComponent;
+export const ProductDetails =ProductDetailsComponent;

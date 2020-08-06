@@ -136,11 +136,44 @@ export const revolutionSliderData = {
 		altText: "Revolution Slider Image",
 	},
 };
-export const lookBookData={
-	image:{
-		imageSrc:"/lookbookicon.webp",
-		altText:"Lookbook Image",
+export const lookBookData = {
+	image: {
+		imageSrc: "/lookbookicon.webp",
+		altText: "Lookbook Image",
 	},
-	heading:"The New Lookbook",
-	subHeading:"Just pin everything you want to sell from a photo.",
-}
+	heading: "The New Lookbook",
+	subHeading: "Just pin everything you want to sell from a photo.",
+};
+
+export const productDetailsData = [
+	{
+		image: {
+			imageSrc: "/productdetailsicon.webp",
+			altText: "ProductDetails Image",
+		},
+		heading: "Add to cart popup",
+		subHeading: {
+			top: "Your customers can now decide if they want",
+			bottom: "to continue shopping or just got to checkout.",
+		},
+		productDetailsItemImage: {
+			imageSrc: "/productdetailsimage.webp",
+			altText: "ProductDetails Image",
+		},
+	},
+	{
+		image: {
+			imageSrc: "/productdetailsicon1.webp",
+			altText: "ProductDetails Image",
+		},
+		heading: "360 Degree Product View",
+		subHeading: {
+			top: "Words can describe how a product might be used but 360 degree photography shows it in",
+			bottom: "action, providing essential visual information to make a purchasing decition.",
+		},
+		productDetailsItemImage: {
+			imageSrc: "/productdetailsimage1.webp",
+			altText: "ProductDetails Image",
+		},
+	},
+];

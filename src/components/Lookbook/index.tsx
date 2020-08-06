@@ -13,16 +13,13 @@ padding:80px 0px;
 
 const InnerWrapper = styled.div` 
 width:50%;
-/* margin-top:11%; */
 text-align:center;
 padding-left:55px;
+ padding-top:130px;
 .imageStyle{
-    /* padding-top:80px; */
-    /* margin-bottom:30px;  */
     display: block;
-    height: 54px;
     margin: 0 auto 30px;
-    width: 54px;
+    
 
 }
 .headingStyle{
