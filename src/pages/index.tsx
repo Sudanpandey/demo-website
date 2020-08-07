@@ -6,6 +6,7 @@ import {
 	RevolutionSlider,
 	LookBook,
 	ProductDetails,
+	OrderProduct,
 } from "components";
 
 import {
@@ -16,6 +17,8 @@ import {
 	revolutionSliderData,
 	lookBookData,
 	productDetailsData,
+	checkOutData,
+	notificationData,
 } from "mock";
 
 const HomePage = () => {
@@ -27,6 +30,11 @@ const HomePage = () => {
 			<FacebookChat {...facebookChatData} />
 			<RevolutionSlider {...revolutionSliderData} />
 			<LookBook {...lookBookData} />
+
+			<OrderProduct
+				checkOutData={checkOutData}
+				notificationData={notificationData}
+			/>
 			<ProductDetails productDetailsData={productDetailsData} />
 		</>
 	);

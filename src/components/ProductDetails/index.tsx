@@ -32,7 +32,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({
 			{productDetailsData.map((productDetail, index) => {
 				return (
 					<ItemWrapper position={index === 0 ? "left" : "right"}>
-						<ProductDetailsItem
+						<ProductDetailsItem 
 							{...productDetail}
 							className={index === 0 && "productDetailImageStyle"}
 						/>
