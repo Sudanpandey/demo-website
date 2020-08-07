@@ -11,6 +11,9 @@ import RevolutionSliderComponent from"./RevolutiionSlider";
 import LookBookComponent from "./Lookbook";
 import ProductDetailsItemComponent from "./ProductDetailsItem";
 import ProductDetailsComponent from "./ProductDetails";
+import CheckOutComponent from "./CheckOut";
+import NotificationComponent from "./Notification";
+import OrderProductComponent from "./OrderProduct"
 
 export const NavBar = NavBarComponent;
 export const Heading = Headingponent;
@@ -25,3 +28,7 @@ export const RevolutionSlider=RevolutionSliderComponent;
 export const LookBook =LookBookComponent;
 export const ProductDetailsItem =ProductDetailsItemComponent;
 export const ProductDetails =ProductDetailsComponent;
+export const CheckOut =CheckOutComponent;
+export const Notification =NotificationComponent;
+export const OrderProduct =OrderProductComponent;
+

@@ -8,8 +8,9 @@ const Wrapper = styled.div`
 	flex-direction: column;
 	align-items: center;
 	background: #451919 url("/Revolutiionbgimage.webp") center bottom no-repeat;
-	padding: 60px 0px 80px;
-	.iconStyle {
+	background-size: cover;  
+	padding: 60px 0px 80px;                    
+	.iconStyle {     
 		margin-bottom: 40px;
 	}
 	.headerStyle {

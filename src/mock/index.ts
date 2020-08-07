@@ -177,3 +177,31 @@ export const productDetailsData = [
 		},
 	},
 ];
+
+export const checkOutData = {
+	image: {
+		imageSrc: "/checkouticon.webp",
+		altText: "CheckOutImage",
+	},
+	heading: "Dynamic checkout ready!",
+	subHeading: {
+		top: "Dynamic checkout buttons are an alternative",
+		bottom: "to the add to cart button.",
+	},
+    checkOutImage: {
+		imageSrc: "/checkoutbuttonimage.webp",
+		altText: "CheckOut Image",
+	},
+};
+export const notificationData = {
+	image: {
+		imageSrc: "/notificationmiddleimage.webp",
+		altText: "CheckOutImage",
+	},
+	heading: "Order Product Notification",
+	subHeading: {
+		top: "Boost up sales by letting your shoppers know",
+		bottom: "which products were purchased.",
+	},
+   
+};
