@@ -18,7 +18,7 @@ const OrderProduct: React.FC<OrderProductProps> = ({
 	return (
 		<Wrapper>
 			<CheckOut {...checkOutData} />
-			<Notification {...notificationData} />
+			<Notification {...notificationData} />  
 		</Wrapper>
 	);
 };
