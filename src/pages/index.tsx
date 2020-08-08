@@ -8,6 +8,7 @@ import {
 	ProductDetails,
 	OrderProduct,
 	ProductPageLayout,
+   CustomHeader,
 } from "components";
 
 import {
@@ -21,7 +22,9 @@ import {
 	checkOutData,
 	notificationData,
 	productPageLayoutData,
+	customHeaderData,
 } from "mock";
+
 
 const HomePage = () => {    
 	return (
@@ -39,6 +42,8 @@ const HomePage = () => {
 			/>
 			<ProductDetails productDetailsData={productDetailsData} />
 			<ProductPageLayout {...productPageLayoutData} /> 
+			<CustomHeader {...customHeaderData}/>
+			
 		</>
 	);
 };
