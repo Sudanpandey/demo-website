@@ -17,6 +17,7 @@ const Wrapper = styled.div`
 	.subHeadingStyle {
 		margin-bottom: 40px;
 	}
+
 `;
 
 const ProductDetailsItem: React.FC<ProductDetailsItemProps> = ({

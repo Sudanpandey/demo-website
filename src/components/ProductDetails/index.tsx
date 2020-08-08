@@ -5,7 +5,7 @@ import { ProductDetailsProps } from "./types";
 
 const Wrapper = styled.div`
 	display: flex;
-	flex-direction: row;
+	flex-direction: row;	
 	align-items: center;
 	/* padding:60px 0px 50px; */
 	background-size: coveer;
