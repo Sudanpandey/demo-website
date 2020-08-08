@@ -15,6 +15,7 @@ import CheckOutComponent from "./CheckOut";
 import NotificationComponent from "./Notification";
 import OrderProductComponent from "./OrderProduct";
 import ProductPageLayoutComponent from "./ProductPageLayout";
+import CustomHeaderComponent from "./CustomHeader";
 
 export const NavBar = NavBarComponent;
 export const Heading = Headingponent;
@@ -33,3 +34,4 @@ export const CheckOut = CheckOutComponent;
 export const Notification = NotificationComponent;
 export const OrderProduct = OrderProductComponent;
 export const ProductPageLayout = ProductPageLayoutComponent;
+export const CustomHeader = CustomHeaderComponent;

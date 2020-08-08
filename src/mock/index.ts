@@ -294,3 +294,16 @@ export const productPageLayoutData = {
 		
 	],
 }
+export const customHeaderData = {
+	image: {
+		imageSrc: "/customheaderimage.webp",
+		altText: "Custom Header Image",
+	},
+	heading: "26+ custom headers",
+	subHeading: {
+		top: "With fastor theme you have access to pre-made custom headers.",
+		middle:"You can choose any you want and work on it later.",
+		bottom: "Check few examples below:",
+	},
+   
+};
