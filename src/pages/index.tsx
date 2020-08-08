@@ -7,6 +7,7 @@ import {
 	LookBook,
 	ProductDetails,
 	OrderProduct,
+	ProductPageLayout,
 } from "components";
 
 import {
@@ -19,9 +20,10 @@ import {
 	productDetailsData,
 	checkOutData,
 	notificationData,
+	productPageLayoutData,
 } from "mock";
 
-const HomePage = () => {
+const HomePage = () => {    
 	return (
 		<>
 			<NavBar navItems={navItems} />
@@ -36,6 +38,7 @@ const HomePage = () => {
 				notificationData={notificationData}
 			/>
 			<ProductDetails productDetailsData={productDetailsData} />
+			<ProductPageLayout {...productPageLayoutData} /> 
 		</>
 	);
 };

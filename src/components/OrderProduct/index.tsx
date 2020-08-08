@@ -6,6 +6,9 @@ import { CheckOut, Notification } from "components";
 
 const Wrapper = styled.div`
 	display: flex;
+	@media (max-width: 767px) {
+		display: block;
+	}
 `;
 
 const OrderProduct: React.FC<OrderProductProps> = ({

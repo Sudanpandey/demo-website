@@ -205,3 +205,92 @@ export const notificationData = {
 	},
    
 };
+
+export const productPageLayoutData = {
+	heading: "11 Product page layouts",
+	subHeading: "Let the product page of your store fit into it better.",
+	image: {
+		imageSrc: "/pagelayoutimage.png",
+		altText: "Page Layout Image",      
+	},
+	gridLayoutImages: [
+		{
+			image: {
+				imageSrc: "/grid1.png",
+				altText: "Marketing Automatiion Image ",
+			},
+			label:"Thumbnails Left"
+		},
+		{
+				image: {
+					imageSrc: "/grid2.png",
+					altText: "Marketing Automatiion Image ",
+				},
+				label:"Thumbnails Bottom"
+			},
+			{
+				image: {
+					imageSrc: "/grid3.png",
+					altText: "Marketing Automatiion Image ",
+				},
+				label:"Images Gallery"
+			},
+			{
+				image: {
+					imageSrc: "/grid4.png",
+					altText: "Marketing Automatiion Image ",
+				},
+				label:"Images Full Screen"
+			},
+			{
+				image: {
+					imageSrc: "/grid5.png",
+					altText: "Marketing Automatiion Image ",
+				},
+				label:"Images Carousel	"
+			},
+			{
+				image: {
+					imageSrc: "/grid6.png",
+					altText: "Marketing Automatiion Image ",
+				},
+				label:"Sticky info"
+			},
+			{
+				image: {
+					imageSrc: "/grid7.png",
+					altText: "Marketing Automatiion Image ",
+				},
+				label:"Compact"
+		},
+		{
+			image: {
+				imageSrc: "/grid8.png",
+				altText: "Marketing Automatiion Image ",
+			},
+			label:"Left sidebar"
+		},
+		{
+			image: {
+				imageSrc: "/grid9.png",
+				altText: "Marketing Automatiion Image ",
+			},
+			label:"Right sidebar"
+		},
+		{
+			image: {
+				imageSrc: "/grid10.png",
+				altText: "Marketing Automatiion Image ",
+			},
+			label:"Small Image"
+		},
+		{
+			image: {
+				imageSrc: "/grid11.png",
+				altText: "Marketing Automatiion Image ",
+			},
+			label:"Large Image"
+		},
+		
+	],
+}

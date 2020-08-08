@@ -81,7 +81,7 @@ const FacebookChat: React.FC<FacebookChatProps> = ({
 				{items.map(({ subHeading, image }) => (
 					<FacebookChatItem
 						key={subHeading}
-						subHeading={subHeading}
+						subHeading={subHeading}          
 						image={image}
 						className="itemStyle"
 					/>
