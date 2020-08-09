@@ -15,7 +15,7 @@ const StyledHeader = styled.h1<HeadProps>`
 	}) =>
 		color === "black"
 			? blackColor
-			: "blackSecond"
+			: color === "blackSecond"
 			? blackSecond
 			: whiteColor};
 `;
