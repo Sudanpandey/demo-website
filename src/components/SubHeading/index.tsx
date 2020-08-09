@@ -9,9 +9,9 @@ line-height: 28px;
 color:${({
     color, 
     theme:{
-        colors:{blackColor,whiteColor},
+        colors:{blackColor,whiteColor,blackSecond},
     },
-})=>(color==="black"?blackColor:whiteColor)};
+})=>(color==="black"?blackColor : "blackSecond" ? blackSecond: whiteColor)};
 `;
 
 const SubHeading: React.FC<SubHeaderProps>=({

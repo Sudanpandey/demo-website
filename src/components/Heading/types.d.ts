@@ -1,5 +1,5 @@
 export interface HeadProps {
-	color?: "black" | "white";
+	color?: "black" | "blackSecond" |"white";
 	type?: "primary" | "secondary";
 	className?: string;
 }

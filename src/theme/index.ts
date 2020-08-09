@@ -3,7 +3,8 @@ import baseStyled, { ThemedBaseStyledInterface } from "styled-components";
 const colors = {
 	
 
-	blackColor: "#262626",
+    blackColor: "#262626",
+    blackSecond: "#1a1a1a",
 	greenColor: "#82b440",
     whiteColor: "#FFFFFF",
     lightBlack:"#9E9E9E",   

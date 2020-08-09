@@ -20,12 +20,11 @@ padding-top:80px;
 
 
 const InnerWrapper = styled.div` 
-
+margin:0px 42px;
+padding:0px 15px;
 `;
 const Abc=styled.div`
  width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     text-align:center;
@@ -47,14 +46,15 @@ const CustomHeader: React.FC<CustomHeaderProps> = ({
     <Wrapper>
         <Abc>
         <InnerWrapper>
-        <Heading content={heading}  className="headerStyle"/>
-        <SubHeading content ={top} />
-        <SubHeading content ={middle} />
-        <SubHeading content ={bottom} className="subHeaderStyle"/>
+        <Heading content={heading}   color="blackSecond" className="headerStyle"/>
+        <SubHeading content ={top} color="blackSecond" />
+        <SubHeading content ={middle} color="blackSecond" />
+        <SubHeading content ={bottom} color="blackSecond" className="subHeaderStyle"/>
         </InnerWrapper>
         </Abc>
         <Image image={imageSrc} altText={altText} className="imageStyle" />
     </Wrapper>
-        );
+        );    
 };
 export default CustomHeader;
+  

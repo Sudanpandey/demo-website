@@ -1,5 +1,5 @@
 export interface SubHeadProps {
-	color?: "black" | "white";
+	color?: "black" | "blackSecond"|"white";
 	className?: string;
 }
 

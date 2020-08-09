@@ -94,8 +94,8 @@ const ProductPageLayout: React.FC<ProductPageLayoutProps> = ({
 	return (
 		<Wrapper>
 			<OuterWrapper>
-				<Heading content={heading} className="headerStyle" />
-				<SubHeading content={subHeading} className="subHeadingStyle " />
+				<Heading content={heading}  color="blackSecond"  className="headerStyle" />
+				<SubHeading content={subHeading} color="blackSecond" className="subHeadingStyle " />
 				<Image
 					image={imageSrc}
 					altText={altText}
