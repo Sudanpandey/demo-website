@@ -16,6 +16,7 @@ import NotificationComponent from "./Notification";
 import OrderProductComponent from "./OrderProduct";
 import ProductPageLayoutComponent from "./ProductPageLayout";
 import CustomHeaderComponent from "./CustomHeader";
+import ProductImageComponent from "./ProductImage";
 
 export const NavBar = NavBarComponent;
 export const Heading = Headingponent;
@@ -35,3 +36,4 @@ export const Notification = NotificationComponent;
 export const OrderProduct = OrderProductComponent;
 export const ProductPageLayout = ProductPageLayoutComponent;
 export const CustomHeader = CustomHeaderComponent;
+export const ProductImage = ProductImageComponent;

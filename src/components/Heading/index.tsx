@@ -6,13 +6,18 @@ import { styled } from "theme";
 const StyledHeader = styled.h1<HeadProps>`
 	font-size: ${({ type }) => (type === "primary" ? "45px" : "35px")};
 	font-weight: 700;
-	line-height: 50px;  
+	line-height: 50px;
 	color: ${({
 		color,
 		theme: {
-			colors: { blackColor, whiteColor },
+			colors: { blackColor, blackSecond, whiteColor },
 		},
-	}) => (color === "black" ? blackColor : whiteColor)};
+	}) =>
+		color === "black"
+			? blackColor
+			: "blackSecond"
+			? blackSecond
+			: whiteColor};
 `;
 
 const Heading: React.FC<HeaderProps> = ({

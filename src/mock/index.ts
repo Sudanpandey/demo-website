@@ -307,3 +307,39 @@ export const customHeaderData = {
 	},
    
 };
+export const productImageData = {
+	heading: "Variant Product Images Ratio",
+	subHeading: "Whatever your brand is, there is always an appropiate product image size for you.",
+	productImages: [
+		{
+			image: {
+				imageSrc: "/productimage1.png",
+				altText: "Product Image ",
+			},
+		},
+		{
+			image: {
+				imageSrc: "/productimage2.png",
+				altText: "Product Image ",
+			},
+		},
+		{
+			image: {
+				imageSrc: "/productimage3.png",
+				altText: "Product Image ",
+			},
+		},
+		{
+			image: {
+				imageSrc: "/productimage4.png",
+				altText: "Product Image ",
+			},
+		},
+		{
+			image: {
+				imageSrc: "/productimage5.png",
+				altText: "Product Image ",
+			},
+		},
+	],
+}
