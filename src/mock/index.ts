@@ -381,3 +381,9 @@ export const fixedMenuData = {
 	subHeading:"Menu is always visible when you scroll!"
    
 };	
+export const starAlltimeData = {
+	image: {
+		imageSrc: "/staralltime.png",
+		altText: "Star Alltime Image",
+	},
+}
