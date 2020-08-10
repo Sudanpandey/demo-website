@@ -10,6 +10,7 @@ import {
 	ProductPageLayout,
    CustomHeader,
    ProductImage,
+   VariantSwatches,
 } from "components";
 
 import {
@@ -25,6 +26,7 @@ import {
 	productPageLayoutData,
 	customHeaderData,
 	productImageData,
+	variantSwatchesData,
 } from "mock";
 
 
@@ -44,9 +46,9 @@ const HomePage = () => {
 			/>
 			<ProductDetails productDetailsData={productDetailsData} />
 			<ProductPageLayout {...productPageLayoutData} /> 
-			<CustomHeader {...customHeaderData}/>
 			<ProductImage {...productImageData}/>
-			
+			<CustomHeader {...customHeaderData}/>
+			<VariantSwatches {...variantSwatchesData} />
 			
 		</>
 	);

@@ -17,6 +17,7 @@ import OrderProductComponent from "./OrderProduct";
 import ProductPageLayoutComponent from "./ProductPageLayout";
 import CustomHeaderComponent from "./CustomHeader";
 import ProductImageComponent from "./ProductImage";
+import VariantSwatchesComponent from "./VariantSwatches";
 
 export const NavBar = NavBarComponent;
 export const Heading = Headingponent;
@@ -37,3 +38,4 @@ export const OrderProduct = OrderProductComponent;
 export const ProductPageLayout = ProductPageLayoutComponent;
 export const CustomHeader = CustomHeaderComponent;
 export const ProductImage = ProductImageComponent;
+export const VariantSwatches = VariantSwatchesComponent;

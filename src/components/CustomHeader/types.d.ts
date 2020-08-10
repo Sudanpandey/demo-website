@@ -6,8 +6,8 @@ export interface CustomHeaderProps{
         middle:string;
         bottom:string;
     }
-    image:{
-        imageSrc:string;
-        altText:string;
-    };
+    // image:{
+    //     imageSrc:string;
+    //     altText:string;
+    // };
 }
