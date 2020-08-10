@@ -12,7 +12,8 @@ import {
    ProductImage,
    VariantSwatches,
    MegaMenu,
-   FixedMenu
+   FixedMenu,
+   StarAlltime
 } from "components";
 
 import {
@@ -31,6 +32,7 @@ import {
 	variantSwatchesData,
 	megaMenuData,
 	fixedMenuData,
+	starAlltimeData
 } from "mock";
 
 
@@ -49,12 +51,14 @@ const HomePage = () => {
 				notificationData={notificationData}
 			/>
 			<ProductDetails productDetailsData={productDetailsData} />
+			<StarAlltime {...starAlltimeData} />
 			<ProductPageLayout {...productPageLayoutData} /> 
 			<ProductImage {...productImageData}/>
 			<CustomHeader {...customHeaderData}/>
 			<VariantSwatches {...variantSwatchesData} />
 			<MegaMenu {...megaMenuData} />
 			<FixedMenu {...fixedMenuData}/>
+			
 			
 			
 		</>

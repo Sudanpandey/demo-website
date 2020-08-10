@@ -20,6 +20,7 @@ import ProductImageComponent from "./ProductImage";
 import VariantSwatchesComponent from "./VariantSwatches";
 import MegaMenuComponent from "./MegaMenu";
 import FixedMenuComponent from "./FixedMenu";
+import StarAlltimeComponent from "./StarAlltime";
 
 export const NavBar = NavBarComponent;
 export const Heading = Headingponent;
@@ -43,3 +44,4 @@ export const ProductImage = ProductImageComponent;
 export const VariantSwatches = VariantSwatchesComponent;
 export const MegaMenu = MegaMenuComponent;
 export const FixedMenu = FixedMenuComponent;
+export const StarAlltime = StarAlltimeComponent;
