@@ -357,3 +357,19 @@ export const variantSwatchesData = {
 	subHeading: "Now can use product images itself as swatches.",
    
 };
+
+export const megaMenuData = {
+	image: {
+		imageSrc: "/megamenu.webp",
+		altText: "Mega Menu Image",
+	},
+	heading: {
+		top:"Powerfull",
+		bottom:"MegaMenu"
+	},
+	subHeading: {
+ head:"Create your own menu.",
+ tail:"Just few clicks for a new style."
+	},
+   
+};
