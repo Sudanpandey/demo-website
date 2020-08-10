@@ -371,5 +371,13 @@ export const megaMenuData = {
  head:"Create your own menu.",
  tail:"Just few clicks for a new style."
 	},
-   
 };
+export const fixedMenuData = {
+	image: {
+		imageSrc: "/fixedmenu.webp",
+		altText: "Mega Menu Image",
+	},
+	heading: "Fixed Menu",
+	subHeading:"Menu is always visible when you scroll!"
+   
+};	

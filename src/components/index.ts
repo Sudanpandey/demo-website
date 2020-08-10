@@ -19,6 +19,7 @@ import CustomHeaderComponent from "./CustomHeader";
 import ProductImageComponent from "./ProductImage";
 import VariantSwatchesComponent from "./VariantSwatches";
 import MegaMenuComponent from "./MegaMenu";
+import FixedMenuComponent from "./FixedMenu";
 
 export const NavBar = NavBarComponent;
 export const Heading = Headingponent;
@@ -41,3 +42,4 @@ export const CustomHeader = CustomHeaderComponent;
 export const ProductImage = ProductImageComponent;
 export const VariantSwatches = VariantSwatchesComponent;
 export const MegaMenu = MegaMenuComponent;
+export const FixedMenu = FixedMenuComponent;
