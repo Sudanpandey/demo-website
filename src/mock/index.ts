@@ -295,10 +295,10 @@ export const productPageLayoutData = {
 	],
 }
 export const customHeaderData = {
-	image: {
-		imageSrc: "/customheaderimage.webp",
-		altText: "Custom Header Image",
-	},
+	// image: {
+	// 	imageSrc: "/customheaderimage.webp",
+	// 	altText: "Custom Header Image",
+	// },
 	heading: "26+ custom headers",
 	subHeading: {
 		top: "With fastor theme you have access to pre-made custom headers.",
@@ -343,3 +343,17 @@ export const productImageData = {
 		},
 	],
 }
+
+
+export const variantSwatchesData = {
+	image: {
+		imageSrc: "/variantimage.png",
+		altText: "Variant Image Image",
+	},
+	heading: {
+		top:"Advanced Variant",
+		bottom:"Swatches"
+	},
+	subHeading: "Now can use product images itself as swatches.",
+   
+};

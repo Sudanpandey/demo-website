@@ -31,7 +31,7 @@ const ItemWrapper=styled.div`
 display:flex;
 flex-direction:row;
 max-width: 75rem;
-margin-bottom:50px;
+/* margin-bottom:50px; */
 padding-right: 15px;
  padding-left: 15px;
 margin-right: -15px;
