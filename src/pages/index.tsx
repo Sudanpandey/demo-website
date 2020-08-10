@@ -11,7 +11,8 @@ import {
    CustomHeader,
    ProductImage,
    VariantSwatches,
-   MegaMenu
+   MegaMenu,
+   FixedMenu
 } from "components";
 
 import {
@@ -28,7 +29,8 @@ import {
 	customHeaderData,
 	productImageData,
 	variantSwatchesData,
-	megaMenuData
+	megaMenuData,
+	fixedMenuData,
 } from "mock";
 
 
@@ -52,6 +54,8 @@ const HomePage = () => {
 			<CustomHeader {...customHeaderData}/>
 			<VariantSwatches {...variantSwatchesData} />
 			<MegaMenu {...megaMenuData} />
+			<FixedMenu {...fixedMenuData}/>
+			
 			
 		</>
 	);
