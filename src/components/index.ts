@@ -22,6 +22,8 @@ import MegaMenuComponent from "./MegaMenu";
 import FixedMenuComponent from "./FixedMenu";
 import StarAlltimeComponent from "./StarAlltime";
 import PowerfulBannerComponent from "./PowerfulBanner";
+import MixedCollectionItemComponent from "./MixedCollectionItem";
+import MixedCollectionComponent from "./MixedCollection";
 
 export const NavBar = NavBarComponent;
 export const Heading = Headingponent;
@@ -47,3 +49,5 @@ export const MegaMenu = MegaMenuComponent;
 export const FixedMenu = FixedMenuComponent;
 export const StarAlltime = StarAlltimeComponent;
 export const PowerfulBanner = PowerfulBannerComponent;
+export const MixedCollectionItem = MixedCollectionItemComponent;
+export const MixedCollection = MixedCollectionComponent;
