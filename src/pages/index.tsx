@@ -13,7 +13,8 @@ import {
    VariantSwatches,
    MegaMenu,
    FixedMenu,
-   StarAlltime
+   StarAlltime,
+   PowerfulBanner
 } from "components";
 
 import {
@@ -32,7 +33,8 @@ import {
 	variantSwatchesData,
 	megaMenuData,
 	fixedMenuData,
-	starAlltimeData
+	starAlltimeData,
+	powerfulBannerData,
 } from "mock";
 
 
@@ -41,6 +43,7 @@ const HomePage = () => {
 		<>
 			<NavBar navItems={navItems} />
 			<ExpressInstallation {...expressInstallationData} />
+			<PowerfulBanner {...powerfulBannerData}/>
 			<MarketingAutomation {...marketingAutomationData} />
 			<FacebookChat {...facebookChatData} />
 			<RevolutionSlider {...revolutionSliderData} />
@@ -58,8 +61,6 @@ const HomePage = () => {
 			<VariantSwatches {...variantSwatchesData} />
 			<MegaMenu {...megaMenuData} />
 			<FixedMenu {...fixedMenuData}/>
-			
-			
 			
 		</>
 	);

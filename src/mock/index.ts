@@ -387,3 +387,19 @@ export const starAlltimeData = {
 		altText: "Star Alltime Image",
 	},
 }
+
+export const powerfulBannerData = {
+	image: {
+		imageSrc: "/powerfulbannericon.webp",
+		altText: "PowerfulBanner Image",
+	},
+	heading: "Powerfull Rich banners",
+	subHeading: {
+		top: "Now you don't need coding skill to create",
+		bottom: "stunning website, just few clicks and it’s done!",
+	},
+    fastorImage: {
+		imageSrc: "/powerfulbannerimage.webp",
+		altText: "PowerfulBanner Image",
+	},
+};
