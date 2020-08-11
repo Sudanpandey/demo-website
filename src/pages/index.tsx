@@ -14,7 +14,7 @@ import {
    MegaMenu,
    FixedMenu,
    StarAlltime,
-   PowerfulBanner
+   PowerfulBanner,MixedCollection
 } from "components";
 
 import {
@@ -35,6 +35,7 @@ import {
 	fixedMenuData,
 	starAlltimeData,
 	powerfulBannerData,
+	mixedCollectionData
 } from "mock";
 
 
@@ -61,6 +62,7 @@ const HomePage = () => {
 			<VariantSwatches {...variantSwatchesData} />
 			<MegaMenu {...megaMenuData} />
 			<FixedMenu {...fixedMenuData}/>
+			<MixedCollection {...mixedCollectionData}/>
 			
 		</>
 	);

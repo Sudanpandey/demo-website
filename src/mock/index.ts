@@ -168,8 +168,10 @@ export const productDetailsData = [
 		},
 		heading: "360 Degree Product View",
 		subHeading: {
-			top: "Words can describe how a product might be used but 360 degree photography shows it in",
-			bottom: "action, providing essential visual information to make a purchasing decition.",
+			top:
+				"Words can describe how a product might be used but 360 degree photography shows it in",
+			bottom:
+				"action, providing essential visual information to make a purchasing decition.",
 		},
 		productDetailsItemImage: {
 			imageSrc: "/productdetailsimage1.webp",
@@ -188,7 +190,7 @@ export const checkOutData = {
 		top: "Dynamic checkout buttons are an alternative",
 		bottom: "to the add to cart button.",
 	},
-    checkOutImage: {
+	checkOutImage: {
 		imageSrc: "/checkoutbuttonimage.webp",
 		altText: "CheckOut Image",
 	},
@@ -203,7 +205,6 @@ export const notificationData = {
 		top: "Boost up sales by letting your shoppers know",
 		bottom: "which products were purchased.",
 	},
-   
 };
 
 export const productPageLayoutData = {
@@ -211,7 +212,7 @@ export const productPageLayoutData = {
 	subHeading: "Let the product page of your store fit into it better.",
 	image: {
 		imageSrc: "/pagelayoutimage.png",
-		altText: "Page Layout Image",      
+		altText: "Page Layout Image",
 	},
 	gridLayoutImages: [
 		{
@@ -219,81 +220,80 @@ export const productPageLayoutData = {
 				imageSrc: "/grid1.png",
 				altText: "Marketing Automatiion Image ",
 			},
-			label:"Thumbnails Left"
+			label: "Thumbnails Left",
 		},
 		{
-				image: {
-					imageSrc: "/grid2.png",
-					altText: "Marketing Automatiion Image ",
-				},
-				label:"Thumbnails Bottom"
+			image: {
+				imageSrc: "/grid2.png",
+				altText: "Marketing Automatiion Image ",
 			},
-			{
-				image: {
-					imageSrc: "/grid3.png",
-					altText: "Marketing Automatiion Image ",
-				},
-				label:"Images Gallery"
+			label: "Thumbnails Bottom",
+		},
+		{
+			image: {
+				imageSrc: "/grid3.png",
+				altText: "Marketing Automatiion Image ",
 			},
-			{
-				image: {
-					imageSrc: "/grid4.png",
-					altText: "Marketing Automatiion Image ",
-				},
-				label:"Images Full Screen"
+			label: "Images Gallery",
+		},
+		{
+			image: {
+				imageSrc: "/grid4.png",
+				altText: "Marketing Automatiion Image ",
 			},
-			{
-				image: {
-					imageSrc: "/grid5.png",
-					altText: "Marketing Automatiion Image ",
-				},
-				label:"Images Carousel	"
+			label: "Images Full Screen",
+		},
+		{
+			image: {
+				imageSrc: "/grid5.png",
+				altText: "Marketing Automatiion Image ",
 			},
-			{
-				image: {
-					imageSrc: "/grid6.png",
-					altText: "Marketing Automatiion Image ",
-				},
-				label:"Sticky info"
+			label: "Images Carousel	",
+		},
+		{
+			image: {
+				imageSrc: "/grid6.png",
+				altText: "Marketing Automatiion Image ",
 			},
-			{
-				image: {
-					imageSrc: "/grid7.png",
-					altText: "Marketing Automatiion Image ",
-				},
-				label:"Compact"
+			label: "Sticky info",
+		},
+		{
+			image: {
+				imageSrc: "/grid7.png",
+				altText: "Marketing Automatiion Image ",
+			},
+			label: "Compact",
 		},
 		{
 			image: {
 				imageSrc: "/grid8.png",
 				altText: "Marketing Automatiion Image ",
 			},
-			label:"Left sidebar"
+			label: "Left sidebar",
 		},
 		{
 			image: {
 				imageSrc: "/grid9.png",
 				altText: "Marketing Automatiion Image ",
 			},
-			label:"Right sidebar"
+			label: "Right sidebar",
 		},
 		{
 			image: {
 				imageSrc: "/grid10.png",
 				altText: "Marketing Automatiion Image ",
 			},
-			label:"Small Image"
+			label: "Small Image",
 		},
 		{
 			image: {
 				imageSrc: "/grid11.png",
 				altText: "Marketing Automatiion Image ",
 			},
-			label:"Large Image"
+			label: "Large Image",
 		},
-		
 	],
-}
+};
 export const customHeaderData = {
 	// image: {
 	// 	imageSrc: "/customheaderimage.webp",
@@ -302,14 +302,14 @@ export const customHeaderData = {
 	heading: "26+ custom headers",
 	subHeading: {
 		top: "With fastor theme you have access to pre-made custom headers.",
-		middle:"You can choose any you want and work on it later.",
+		middle: "You can choose any you want and work on it later.",
 		bottom: "Check few examples below:",
 	},
-   
 };
 export const productImageData = {
 	heading: "Variant Product Images Ratio",
-	subHeading: "Whatever your brand is, there is always an appropiate product image size for you.",
+	subHeading:
+		"Whatever your brand is, there is always an appropiate product image size for you.",
 	productImages: [
 		{
 			image: {
@@ -342,8 +342,7 @@ export const productImageData = {
 			},
 		},
 	],
-}
-
+};
 
 export const variantSwatchesData = {
 	image: {
@@ -351,11 +350,10 @@ export const variantSwatchesData = {
 		altText: "Variant Image Image",
 	},
 	heading: {
-		top:"Advanced Variant",
-		bottom:"Swatches"
+		top: "Advanced Variant",
+		bottom: "Swatches",
 	},
 	subHeading: "Now can use product images itself as swatches.",
-   
 };
 
 export const megaMenuData = {
@@ -364,12 +362,12 @@ export const megaMenuData = {
 		altText: "Mega Menu Image",
 	},
 	heading: {
-		top:"Powerfull",
-		bottom:"MegaMenu"
+		top: "Powerfull",
+		bottom: "MegaMenu",
 	},
 	subHeading: {
- head:"Create your own menu.",
- tail:"Just few clicks for a new style."
+		head: "Create your own menu.",
+		tail: "Just few clicks for a new style.",
 	},
 };
 export const fixedMenuData = {
@@ -378,15 +376,14 @@ export const fixedMenuData = {
 		altText: "Mega Menu Image",
 	},
 	heading: "Fixed Menu",
-	subHeading:"Menu is always visible when you scroll!"
-   
-};	
+	subHeading: "Menu is always visible when you scroll!",
+};
 export const starAlltimeData = {
 	image: {
 		imageSrc: "/staralltime.png",
 		altText: "Star Alltime Image",
 	},
-}
+};
 
 export const powerfulBannerData = {
 	image: {
@@ -398,8 +395,146 @@ export const powerfulBannerData = {
 		top: "Now you don't need coding skill to create",
 		bottom: "stunning website, just few clicks and it’s done!",
 	},
-    fastorImage: {
+	fastorImage: {
 		imageSrc: "/powerfulbannerimage.webp",
 		altText: "PowerfulBanner Image",
 	},
+};
+
+export const mixedCollectionData = {
+	items: [
+		{
+			image: {
+				imageSrc: "/mixed1.webp",
+				altText: "Marketing Automatiion Image ",
+			},
+			heading: "The best support team	",
+			subHeading:
+				"Fast answer, super friendly team made our support quality better then other.",
+		},
+		{
+			image: {
+				imageSrc: "/mixed2.png",
+				altText: "Marketing Automatiion Image ",
+			},
+			heading: "Unlimited colors",
+			subHeading:
+				"With our Color Picker you can change color of any element in store",
+		},
+
+		{
+			image: {
+				imageSrc: "/mixed3.png",
+				altText: "Marketing Automatiion Image ",
+			},
+			heading: "RTL support",
+			subHeading:
+				"RTL (Right-to-left) languages are fully supported in fastor theme!",
+		},
+		{
+			image: {
+				imageSrc: "/mixed4.png",
+				altText: "Marketing Automatiion Image ",
+			},
+			heading: "Social Widgets",
+			subHeading:
+				"Facebook, Twitter, Instagram ...there is simply way to show it!",
+		},
+		{
+			image: {
+				imageSrc: "/mixed5.png",
+				altText: "Marketing Automatiion Image ",
+			},
+			heading: "600+ Google Fonts",
+			subHeading: "Fastor comes with 600+ web optimized google fonts",
+		},
+		{
+			image: {
+				imageSrc: "/mixed6.png",
+				altText: "Mixed Image ",
+			},
+			heading: "Customizable footer",
+			subHeading:
+				"Additional buttons for next or previous allows you to change product in one click",
+		},
+		{
+			image: {
+				imageSrc: "/mixed7.webp",
+				altText: "Marketing Automatiion Image ",
+			},
+			heading: "Product blocks",
+			subHeading: "Add custom content for your products.",
+		},
+		{
+			image: {
+				imageSrc: "/mixed8.webp",
+				altText: "Marketing Automatiion Image ",
+			},
+			heading: "Customizable footer",
+			subHeading:
+				"You don't need to use default, simply footer like in other themes.Create your own!",
+		},
+
+		{
+			image: {
+				imageSrc: "/mixed9.webp",
+				altText: "Marketing Automatiion Image ",
+			},
+			heading: "Subtle patterns",
+			subHeading:
+				"Select background pattern from patterns list provided by Subtlepatterns",
+		},
+		{
+			image: {
+				imageSrc: "/mixed10.webp",
+				altText: "Marketing Automatiion Image ",
+			},
+			heading: "Hover image effect",
+			subHeading: "Second product image now can be your hover image.",
+		},
+		{
+			image: {
+				imageSrc: "/mixed11.webp",
+				altText: "Marketing Automatiion Image ",
+			},
+			heading: "Cloud zoom",
+			subHeading:
+				"Modern zoom on product page.Inner cloud zoom or default cloud zoom.",
+		},
+		{
+			image: {
+				imageSrc: "/mixed12.webp",
+				altText: "Mixed Image ",
+			},
+			heading: "Limited time countdown",
+			subHeading:
+				"Set discount price with end day to see coundtown for the products you want!",
+		},
+		{
+			image: {
+				imageSrc: "/mixed13.webp",
+				altText: "Marketing Automatiion Image ",
+			},
+			heading: "Auto update price",
+			subHeading:
+				"Choose different prices for colors or sizes in your store and it will be automaticly updated.",
+		},
+		{
+			image: {
+				imageSrc: "/mixed14.webp",
+				altText: "Marketing Automatiion Image ",
+			},
+			heading: "Ask about product",
+			subHeading:
+				"Your customers can simply ask you about the products they are intrested in directly from product page.",
+		},
+		{
+			image: {
+				imageSrc: "/mixed15.webp",
+				altText: "Mixed Image ",
+			},
+			heading: "Go to top button",
+			subHeading: "One click to be on the top of the page",
+		},
+	],
 };
