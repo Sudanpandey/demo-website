@@ -8,6 +8,14 @@ const Wrapper = styled.div`
 	background-color: #ffba5a;
 	color: #fff;
 	padding: 40px 0 77px;
+	.imageStyle {
+		@media (max-width: 1024px) {
+			margin: 0px;
+			padding: 0px;
+			width: 300px;
+			text-align: center;	
+		}
+	}
 `;
 const ImageWrapper = styled.div`
 	max-width: 75rem;

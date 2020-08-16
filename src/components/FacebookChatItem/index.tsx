@@ -12,7 +12,9 @@ const InnerWraper = styled.div`
 	.iconStyle {
 		margin-bottom: 18px;
 		@media (max-width: 767px) {
-	    margin-top:18px;
+	    padding-top:50px;
+		margin-bottom: 18px;
+	
 	}
 	}
 `;

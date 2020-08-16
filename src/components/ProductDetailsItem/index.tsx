@@ -8,6 +8,9 @@ const Wrapper = styled.div`
 	flex-direction: column;
 	align-items: center;
 	padding: 0px 80px;
+	@media (max-width: 1024px) {
+		padding: 0px 30px;
+		}
 	.imageStyle {
 		margin-bottom: 30px;
 	}

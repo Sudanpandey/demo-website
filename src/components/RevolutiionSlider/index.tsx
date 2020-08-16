@@ -8,9 +8,9 @@ const Wrapper = styled.div`
 	flex-direction: column;
 	align-items: center;
 	background: #451919 url("/Revolutiionbgimage.webp") center bottom no-repeat;
-	background-size: cover;  
-	padding: 60px 0px 80px;                    
-	.iconStyle {     
+	background-size: cover;
+	padding: 60px 0px 80px;
+	.iconStyle {
 		margin-bottom: 40px;
 	}
 	.headerStyle {
@@ -18,6 +18,13 @@ const Wrapper = styled.div`
 	}
 	.subHeadingStyle {
 		margin-bottom: 40px;
+	}
+	.imageStyle {
+		width: 100%;
+	}
+
+	@media (max-width: 1024px) {
+		display: none;
 	}
 `;
 
@@ -36,16 +43,17 @@ const RevolutionSlider: React.FC<RevolutionSliderProps> = ({
 		<Wrapper>
 			<Image image={imageSrc} altText={altText} className="iconStyle" />
 			<Heading content={heading} color="white" className="headerStyle" />
-			<SubHeading
-				content={top}   
-				color="white"   
-			/>
+			<SubHeading content={top} color="white" />
 			<SubHeading
 				content={bottom}
 				color="white"
 				className="subHeadingStyle"
 			/>
-			<Image image={revolutionImageSrc} altText={revolutionAltText} />
+			<Image
+				image={revolutionImageSrc}
+				altText={revolutionAltText}
+				className="imageStyle"
+			/>
 		</Wrapper>
 	);
 };

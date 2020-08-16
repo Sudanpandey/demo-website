@@ -13,12 +13,14 @@ const Wrapper = styled.div`
 		padding-right: 20px;
 		padding-bottom: 25px;
 	}
+	@media (max-width: 1024px) {
+	}
 `;
 const InnerWrapper = styled.div<{ image: string }>`
 	background-image: ${({ image }) => `url(${image})`};
 	background-position: 0 8px;
 	background-repeat: no-repeat;
-	padding-left: 56px;	
+	padding-left: 56px;
 `;
 
 const StyledSubHeading = styled.div`

@@ -9,7 +9,9 @@ const Wrapper = styled.div`
 	border-top: 1px solid #e5e5e5;
 	justify-content: space-around;
 	padding: 50px 0px;
+	
 `;
+
 
 const InnerWrapper = styled.div`
 	flex: 0 0 41.666667%;
@@ -22,6 +24,24 @@ const InnerWrapper = styled.div`
 		font-size: 35px;
 		line-height: 40px;
 	}
+	@media (max-width: 1028px) {
+		flex: 0 0 80%;
+	max-width: 90%;
+	margin-bottom:20px;
+	text-align: center;
+		
+	}
+	/* @media (max-width: 1028px) {
+      text-align:center;
+		
+	} */
+	@media (max-width: 1068px) {
+   display:flex;
+   flex-direction:column;
+   
+}	
+
+	
 `;
 const OuterWrapper = styled.div`
 	max-width: 75rem;
@@ -31,21 +51,33 @@ const OuterWrapper = styled.div`
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
+	
 `;
 const ContentWrapper = styled.div`
 	align-items: center;
 	display: flex;
 	text-align: center;
 	flex-wrap: wrap;
+	width: 100%;
 	margin-right: -15px;
 	margin-left: -15px;
+	.subHeading{
+		padding-bottom:30px;
+	}
 	.imageWrapper {
 		margin-bottom: -20px;
 		max-width: 100%;
+		/* width:100%; */
 		border: 0;
 		vertical-align: middle;
 		text-align: center;
 	}
+	@media (max-width: 1024px) {
+   display:flex;
+   flex-direction:column;
+   text-align: center;
+   
+}	
 `;
 const HeaderWrapper = styled.div`
 	margin: 0 0 30px;
@@ -55,9 +87,11 @@ const ImageWrapper = styled.div`
 	max-width: 58.333333%;
 	text-align: center;
 	vertical-align: middle;
-	width: 100%;
 	padding-right: 15px;
 	padding-left: 15px;
+	@media (max-width: 1224px) {
+     min-width:100%;
+}	
 `;
 
 const MegaMenu: React.FC<MegaMenuProps> = ({
@@ -83,7 +117,7 @@ const MegaMenu: React.FC<MegaMenuProps> = ({
 							/>
 						</HeaderWrapper>
 						<SubHeading content={head} color="blackSecond" />
-						<SubHeading content={tail} color="blackSecond" />
+						<SubHeading content={tail} color="blackSecond"  className="subHeading" />
 					</InnerWrapper>
 					<ImageWrapper>
 						<Image

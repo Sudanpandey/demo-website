@@ -10,7 +10,7 @@ const Wrapper = styled.div`
 	align-items: center;
 	background: #002c4c url("/facebookcomponentbgimage.webp") 40% bottom
 		no-repeat;
-	padding: 60px 30px 0px 30px;   
+	padding: 60px 30px 0px 30px;
 
 	.imageStyle {
 		display: block;
@@ -30,18 +30,16 @@ const Wrapper = styled.div`
 	.messangerImageStyle {
 		margin: 50px 0px 30px;
 	}
-	/* .mediaStyle{
-		@media (max-width: 776px) {
-			display:flex;
-			flex-direction:column;
-			align-items:center;
-		}
-	} */
+
+	@media (max-width: 1028px) {
+		padding-bottom: 60px;
+		text-align: center;
+	}
 `;
 const InnerWrapper = styled.div`
 	display: flex;
 	flex-wrap: wrap;
-	padding:  0px 15px;
+	padding: 0px 15px;
 	@media (max-width: 767px) {
 		flex-direction: column;
 	}
@@ -56,7 +54,6 @@ const InnerWrapper = styled.div`
 			flex: 0 0 100%;
 			align-items: center;
 			max-width: 100%;
-			
 		}
 	}
 `;
@@ -73,21 +70,21 @@ const FacebookChat: React.FC<FacebookChatProps> = ({
 			<Image image={imageSrc} altText={altText} className="imageStyle" />
 			<Heading content={top} color="white" className="headingStyle" />
 			<Heading
-				content={bottom} 
+				content={bottom}
 				color="white"
 				className="headingStyle headingBottomStyle"
 			/>
-			<InnerWrapper >
+			<InnerWrapper>
 				{items.map(({ subHeading, image }) => (
 					<FacebookChatItem
 						key={subHeading}
-						subHeading={subHeading}          
+						subHeading={subHeading}
 						image={image}
 						className="itemStyle"
 					/>
 				))}
 			</InnerWrapper>
-			<Image  
+			<Image
 				image={messengerImageSrc}
 				altText={messengerAltText}
 				className="messangerImageStyle"

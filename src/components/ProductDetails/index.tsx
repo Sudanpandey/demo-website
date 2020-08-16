@@ -9,6 +9,16 @@ const Wrapper = styled.div`
 	align-items: center;
 	/* padding:60px 0px 50px; */
 	background-size: coveer;
+	
+	@media (max-width: 1024px) {
+		margin:0;
+		padding:0;
+		 display:flex;
+		 flex-direction:column;
+		 align-items:center;
+		 
+		}
+
 `;
 
 const ItemWrapper = styled.div<{ position: "left" | "right" }>`
@@ -22,6 +32,14 @@ const ItemWrapper = styled.div<{ position: "left" | "right" }>`
 	.productDetailImageStyle {
 		margin-bottom: 89px;
 	}
+	@media (max-width: 1024px) {
+	flex: 0 0 100%;
+	max-width: 100%;	
+	width:100%;
+	text-align: center;
+	paddnig:0;
+	margin:0;
+		}
 `;
 
 const ProductDetails: React.FC<ProductDetailsProps> = ({
