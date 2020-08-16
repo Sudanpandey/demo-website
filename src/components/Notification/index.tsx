@@ -11,6 +11,25 @@ const Wrapper = styled.div`
 		no-repeat;
 	background-size: cover;
 	padding: 60px 0px 80px;
+	@media (max-width: 1024px) {
+		flex: 0 0 100%;
+		width: 100%;
+		max-width: 100%;
+		text-align: center;
+	}
+	.imageStyle {
+		margin-bottom: 30px;
+		text-align: center;
+		align-items: center;
+
+		@media (max-width: 1024px) {
+			margin: 0px;
+			padding: 0px;
+			width: 400px;
+			text-align: center;
+			align-items: center;
+		}
+	}
 `;
 const InnerWrapper = styled.div`
 	padding: 0px 80px;
@@ -26,8 +45,11 @@ const InnerWrapper = styled.div`
 		text-align: center;
 	}
 	.imageStyle {
-		margin: 50px 0px -64px;
+		/* margin: 50px 0px -64px; */
 	}
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 `;
 
 const Notification: React.FC<NotificationProps> = ({

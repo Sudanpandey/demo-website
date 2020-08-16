@@ -12,6 +12,11 @@ const Wrapper = styled.div`
 	padding-bottom: 84px;
 	background: #0a4dbd url("/fastor-weketing-bg.webp") right 0 no-repeat;
 	background-size: cover;
+	@media (max-width: 1027px) {
+		padding-top: 60px;
+	    padding-bottom: 40px;
+		}
+	
     
 	.topImageStyle {
 		margin: 0px 427px 40px;

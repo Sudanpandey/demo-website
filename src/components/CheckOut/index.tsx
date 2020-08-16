@@ -9,14 +9,47 @@ const Wrapper = styled.div`
 	text-align: center;
 	background: #e64445;
 	padding: 60px 0px 80px;
+	@media (max-width: 1024px) {
+	flex: 0 0 100%;
+	width: 100%;
+	max-width: 100%;	
+	text-align: center;
+	margin:0px;
+	padding:0px;
+		}
+	.imageStyle {
+		margin-bottom: 30px;
+		@media (max-width: 1024px) {
+			margin: 0px;
+			padding: 0px;
+			width: 600px;
+			text-align: center;	
+			align-items:center;
+		}
+		@media (max-width: 768px) {
+			margin: 0px;
+			padding: 0px;
+			width: 300px;
+			text-align: center;	
+			align-items:center;
+		}
+	}
+	.imageStyle1 {
+		@media (max-width: 1024px) {
+			margin: 0px;
+			padding: 0px;
+			text-align: center;	
+		}
+	}
+	
 `;
 
 const InnerWrapper = styled.div`
 	padding: 0px 80px;
+	@media (max-width: 1024px) {
+		padding: 30px 80px;
+		}
 
-	.imageStyle {
-		margin-bottom: 30px;
-	}
 	.headingStyle {
 		margin-bottom: 27px;
 	}
@@ -36,7 +69,7 @@ const CheckOut: React.FC<CheckOutProps> = ({
 				<Image
 					image={imageSrc}
 					altText={altText}
-					className="imageStyle"
+					className="imageStyle1"
 				/>
 				<Heading
 					content={heading}
@@ -49,7 +82,7 @@ const CheckOut: React.FC<CheckOutProps> = ({
 					color="white"
 					className="subHeadingStyle"
 				/>
-				<Image image={checkOutImageSrc} altText={checkOutAltText} />
+				<Image image={checkOutImageSrc} altText={checkOutAltText} className="imageStyle" />
 			</InnerWrapper>
 		</Wrapper>
 	);

@@ -21,6 +21,13 @@ const InnerWrapper = styled.div`
 		font-size: 35px;
 		line-height: 40px;
 	}
+	@media (max-width: 1028px) {
+		flex: 0 0 80%;
+	max-width: 90%;
+	margin-bottom:20px;
+	text-align: center;
+		
+	}
 `;
 const OuterWrapper = styled.div`
 	max-width: 75rem;
@@ -38,6 +45,22 @@ const ContentWrapper = styled.div`
 	flex-wrap: wrap;
 	margin-right: -15px;
 	margin-left: -15px;
+	@media (max-width: 1028px) {
+   display:flex;
+   flex-direction:column;
+   text-align: center;
+   .subHeading{
+		padding-bottom:30px;
+	}
+   .imageStyle1{
+			margin: 0px;
+			padding: 0px;
+			width: 300px;
+			text-align: center;	
+		
+	}
+}	
+
 `;
 const HeaderWrapper = styled.div`
 	margin: 0 0 30px;
@@ -74,10 +97,10 @@ const VariantSwatches: React.FC<VariantSwatchesProps> = ({
 								className="headerStyle"
 							/>
 						</HeaderWrapper>
-						<SubHeading content={subHeading} color="blackSecond" />
+						<SubHeading content={subHeading} color="blackSecond" className="subHeading" />
 					</InnerWrapper>
 					<ImageWrapper>
-						<Image image={imageSrc} altText={altText} />
+						<Image image={imageSrc} altText={altText} className="imageStyle1" />
 					</ImageWrapper>
 				</ContentWrapper>
 			</OuterWrapper>

@@ -4,35 +4,34 @@ import { NavBarProps } from "./types";
 import { styled } from "theme";
 
 const Wrapper = styled.div`
-  position: fixed;
-  display: flex !important;
-  justify-content: space-around;
-  font-weight: 400;
-  width: 100%;
-  line-height: 28px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: ${({
+	position: fixed;
+	display: flex !important;
+	justify-content: space-around;
+	font-weight: 400;
+	width: 100%;
+	line-height: 28px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: ${({
 		theme: {
 			colors: { navbarColor },
 		},
-  }) => navbarColor};
+	}) => navbarColor};
 
-  @media (max-width: 767px) {
-	position:fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    /* position: relative; */
-	height: 50px;
-  }
+	@media (max-width: 767px) {
+		position: fixed;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		cursor: pointer;
+		/* position: relative; */
+		height: 50px;
+	}
 `;
 
 const MoreWrapper = styled.div`
- 
 	display: block;
 	cursor: pointer;
 	width: 17px;
@@ -46,7 +45,6 @@ const MoreWrapper = styled.div`
 	@media (min-width: 767px) {
 		display: none;
 	}
-	
 
 	.burgerTop {
 		position: absolute;

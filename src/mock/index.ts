@@ -538,3 +538,10 @@ export const mixedCollectionData = {
 		},
 	],
 };
+
+export const lastPartData = {
+	image: {
+		imageSrc: "/LastPart.png",
+		altText: "Last  Image",
+	},
+};

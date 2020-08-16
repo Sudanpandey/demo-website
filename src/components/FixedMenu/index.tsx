@@ -10,6 +10,9 @@ const Wrapper = styled.div`
 	justify-content: space-around;
 	padding: 50px 0px;
     height:355px;
+	@media (max-width: 1224px) {
+		 display:none;
+		}
 `;
 
 const InnerWrapper = styled.div`
@@ -40,7 +43,13 @@ const ContentWrapper = styled.div`
 	text-align: center;
 	flex-wrap: wrap;
 	margin-right: -15px;
-	margin-left: -15px;
+	margin-left: -15px;     
+	@media (max-width: 1028px) {
+   display:flex;
+   flex-direction:column;
+   text-align: center;
+   
+}	
 `;
 const HeaderWrapper = styled.div`
 	margin: 0 0 30px;

@@ -15,12 +15,22 @@ const Wrapper = styled.div`
 	padding: 70px 0 20px;
 	.headerStyle {
 		margin-bottom: 30px;
+		@media (max-width: 1024px) {
+			
+	}
 	}
 	.subHeadingStyle {
 		margin-bottom: 34px;
+		@media (max-width: 1024px) {
+			margin-bottom: 60px;
+	}
 	}
 	.topImageStyle {
 		vertical-align: middle;
+	}
+	@media (max-width: 1024px) {
+		display: flex;
+		flex-direction: column;
 	}
 `;
 
@@ -52,17 +62,23 @@ const InnerWrapper = styled.div`
 	padding-left: 15px;
 `;
 const ContentWrapper = styled.div`
-
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 
 	margin-right: -15px;
 	margin-left: -15px;
-	@media (max-width: 767px) {
-   display: block;
-   
-  }
+
+	/* @media (max-width: 1024px) {
+	flex: 0 0 50%;
+	max-width: 50%;	
+	text-align: center;
+	} */
+	/* @media (max-width: 1024px) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	} */
 `;
 const ImageLabelWrapper = styled.div`
 	margin-bottom: 50px;
@@ -70,10 +86,23 @@ const ImageLabelWrapper = styled.div`
 	padding-left: 15px;
 	flex: 0 0 16.666667%;
 	max-width: 16.666667%;
+	@media (max-width: 1024px) {
+		flex: 0 0 24%;
+		max-width: 24%;
+	}
+
+	@media (max-width: 767px) {
+		flex: 0 0 49%;
+		max-width: 49%;
+	}
+
 	.imageStyle {
 		margin: 0 auto 15px;
 		max-width: 100%;
 		vertical-align: middle;
+		@media (max-width: 767px) {
+			display: block;
+		}
 	}
 `;
 
@@ -94,8 +123,16 @@ const ProductPageLayout: React.FC<ProductPageLayoutProps> = ({
 	return (
 		<Wrapper>
 			<OuterWrapper>
-				<Heading content={heading}  color="blackSecond"  className="headerStyle" />
-				<SubHeading content={subHeading} color="blackSecond" className="subHeadingStyle " />
+				<Heading
+					content={heading}
+					color="blackSecond"
+					className="headerStyle"
+				/>
+				<SubHeading
+					content={subHeading}
+					color="blackSecond"
+					className="subHeadingStyle "
+				/>
 				<Image
 					image={imageSrc}
 					altText={altText}

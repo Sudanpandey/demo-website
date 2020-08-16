@@ -24,6 +24,7 @@ import StarAlltimeComponent from "./StarAlltime";
 import PowerfulBannerComponent from "./PowerfulBanner";
 import MixedCollectionItemComponent from "./MixedCollectionItem";
 import MixedCollectionComponent from "./MixedCollection";
+import LastPartComponent from "./LastPart";
 
 export const NavBar = NavBarComponent;
 export const Heading = Headingponent;
@@ -51,3 +52,4 @@ export const StarAlltime = StarAlltimeComponent;
 export const PowerfulBanner = PowerfulBannerComponent;
 export const MixedCollectionItem = MixedCollectionItemComponent;
 export const MixedCollection = MixedCollectionComponent;
+export const LastPart = LastPartComponent;   
